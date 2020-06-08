@@ -1,0 +1,63 @@
+body{
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+  height: 100vh;
+}
+
+.glitter-grid{
+width:400px;
+height: 470px;
+display : grid;
+grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto  auto auto auto auto auto auto auto auto auto;
+}
+
+.glitter-box{
+  background-color: grey;
+  width: 14px;
+  height: 14px;
+}
+
+.orange{
+  background-color: #FF7F50;
+  box-shadow:
+              0 0 1px 1px white,
+              0 0 4px 2px orange;
+
+}
+
+.red{
+  background-color:#8B0000;
+  box-shadow:
+              0 0 1px 1px white,
+              0 0 4px 2px red;
+}
+
+.blue{
+  background-color:#0000CD;
+  box-shadow:
+              0 0 1px 1px white,
+              0 0 4px 2px #000080;
+}
+
+.green{
+  background-color:#006400;
+  box-shadow:
+              0 0 1px 1px white,
+              0 0 4px 2px green;
+}
+
+
+.yellow{
+  background-color: #F0E68C;
+  box-shadow:
+              0 0 1px 1px white,
+              0 0 4px 2px #FFD700;
+}
+
+.purple{
+  background-color: #4B0082;
+  box-shadow:
+              0 0 1px 1px white,
+              0 0 4px 2px #E6E6FA;
+}
